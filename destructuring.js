@@ -2,12 +2,13 @@ const actor = {
     name: 'Ananata',
     age: 30,
     phone: '01717653844',
-    money: 124545121545
+    money: 124545121545,
+    movies :['3iditos','maie hu na']
 }
 // if right side is an object left side of destructuring will be object as well 
 // use property name as a variable that contains the property value
 const {phone, age: boyos} = actor
-
+const [firstname,phonename]=actor.movies;
 // const phone = actor.phone;
 // const name = actor.name;
 // const age = actor.age;
